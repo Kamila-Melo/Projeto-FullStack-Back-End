@@ -1,0 +1,42 @@
+{
+  "name": "projeto-fullstack-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamila-Melo/Projeto-FullStack-Back-End.git"
+  },
+  "author": "Kamila-Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamila-Melo/Projeto-FullStack-Back-End/issues"
+  },
+  "homepage": "https://github.com/Kamila-Melo/Projeto-FullStack-Back-End#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.9.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.6",
+    "mysql": "^2.18.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.8",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/knex": "^0.16.1",
+    "@types/mysql": "^2.15.15",
+    "@types/node": "^14.11.5",
+    "@types/uuid": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.63"
+  }
+}
